@@ -1,8 +1,10 @@
 public static void main(String[] args){
 
-    //System.out.println("Hello, Java!");
+    //Iniciando o objeto da classe conrrente
+    Corrente corrente = new Corrente();
 
-    Corrente cor = new Corrente();
+    corrente.setNomecli("Pablo Lichenteine")
+    corrente.setCpfcli("521.359.478-45")
 
-    cor.abrirConta();
+    corrente.abrirConta();
 }
