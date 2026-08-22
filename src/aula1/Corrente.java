@@ -22,8 +22,9 @@ public class Corrente extends Conta {
         this.setNumbank(001);
         this.setNumero(1234566);
 
-        System.out.println("Sua conta é: " + this.getNumero());
-        System.out.println("Sua agência é: " + this.getNumbank());
+
+        //Dados Cliente
+        System.out.println("Seu banco é: " + this.getNumbank() + "\n Sua conta corrente é: " + this.getNumero() + "\n Nome do cliente: " + this.getNomecli() + "\n CPF do cliente: " + this.getCpfcli());
     }
 
     
