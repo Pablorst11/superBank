@@ -1,3 +1,5 @@
+public class Principal (
+
 public static void main(String[] args){
 
     //Iniciando o objeto da classe conrrente
@@ -8,3 +10,5 @@ public static void main(String[] args){
 
     corrente.abrirConta();
 }
+
+)
